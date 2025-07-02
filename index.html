@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css?v=2">
+    <title>Simple Nav</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="#" class="logo">MySite</a>
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+                <img src="/icon/hamburger_bar.svg" id="iconHamburger" class="icon" alt="Menu" />
+                <img src="/icon/hamburger_x.svg" id="iconClose" class="icon hidden" alt="Close" />
+            </button>
+        </nav>
+    </header>
+    <div class="nav-menu" id="navMenu">
+        <a href="#">Home</a>
+        <a href="#hero">Hero</a>
+        <a href="#">Services</a>
+        <a href="#donate">Donate</a>
+    </div>
+    <main>
+        <section class="hero" id="hero">
+            <h1>welcome to my site</h1>
+            <p>this is an free to use navbar example for u</p>
+        </section>
+        <section class="donate" id="donate">
+            <div class="kofi">
+                <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-Fi logo" />
+                <a href="https://ko-fi.com/simonov41/goal?g=0">donate me in ko-fi</a>
+            </div>
+        </section>
+        <section class="cards" id="cards">
+            <div class="card">
+                <div class="box"></div>
+                <p>this an dummy content</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this an dummy content</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this an dummy content</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this an dummy content</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this an dummy content</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
